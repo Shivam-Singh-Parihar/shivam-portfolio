@@ -4,7 +4,7 @@ export default function Footer({ dark }) {
    const SOCIAL_LINKS = [
   { name: 'GitHub',    url: 'https://github.com/Shivam-Singh-Parihar' },
   { name: 'LinkedIn',  url: 'https://linkedin.com/in/shivam-singh-parihar' },
-  { name: 'Instagram', url: 'https://instagram.com/shivamsinghparihar' },
+  { name: 'Instagram', url: 'https://www.instagram.com/shivam.singh.45r/' },
 ];
   return (
     <footer className={`py-10 border-t ${dark ? 'border-white/5' : 'border-black/5'}`}>
