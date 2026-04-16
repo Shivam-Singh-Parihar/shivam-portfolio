@@ -11,6 +11,10 @@ import Experience  from './components/Experience.jsx'
 import Projects    from './components/Projects.jsx'
 import Contact     from './components/Contact.jsx'
 import Footer      from './components/Footer.jsx'
+
+// ✅ ADD THIS
+import AdminLogin  from './admin/AdminLogin.jsx'
+import AdminPanel  from './admin/AdminPanel.jsx'
 /* ── Portfolio wrapper ─────────────────────────────────────── */
 function Portfolio({ dark, setDark }) {
   return (
