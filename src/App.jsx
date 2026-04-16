@@ -2,19 +2,15 @@ import { useState, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { ProjectsProvider } from './context/ProjectsContext'
 
-import CursorGlow  from './components/CursorGlow'
-import Navbar      from './components/Navbar'
-import Hero        from './components/Hero'
-import About       from './components/About'
-import Skills      from './components/Skills'
-import Experience  from './components/Experience'
+import CursorGlow  from './components/CursorGlow.jsx'
+import Navbar      from './components/Navbar.jsx'
+import Hero        from './components/Hero.jsx'
+import About       from './components/About.jsx'
+import Skills      from './components/Skills.jsx'
+import Experience  from './components/Experience.jsx'
 import Projects    from './components/Projects.jsx'
-import Contact     from './components/Contact'
-import Footer      from './components/Footer'
-
-import AdminLogin  from './admin/AdminLogin'
-import AdminPanel  from './admin/AdminPanel'
-
+import Contact     from './components/Contact.jsx'
+import Footer      from './components/Footer.jsx'
 /* ── Portfolio wrapper ─────────────────────────────────────── */
 function Portfolio({ dark, setDark }) {
   return (
